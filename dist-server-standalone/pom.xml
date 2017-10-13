@@ -74,7 +74,7 @@
                             <goal>install-file</goal>
                         </goals>
                         <configuration>
-                            <file>${project.build.directory}/htmlunit-driver-${htmlunit.driver.version}-with-dependencies.jar</file>
+                            <file>${project.build.directory}/htmlunit-driver-standalone-${htmlunit.driver.version}.jar</file>
                             <groupId>org.seleniumhq.selenium</groupId>
                             <artifactId>htmlunit-driver</artifactId>
                             <version>${htmlunit.driver.version}</version>
